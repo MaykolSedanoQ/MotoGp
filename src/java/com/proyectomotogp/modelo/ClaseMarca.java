@@ -31,6 +31,11 @@ public class ClaseMarca {
     }
     
     //to string
+
+    @Override
+    public String toString() {
+        return "ClaseMarca{" + "NombresMarcas=" + NombresMarcas + '}';
+    }
     
     
 }

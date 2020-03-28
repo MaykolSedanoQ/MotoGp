@@ -41,5 +41,11 @@ public class ClaseConfiguracionCarrera {
     }
     
     //to string
+
+    @Override
+    public String toString() {
+        return "ClaseConfiguracionCarrera{" + "NumeroVueltas=" + NumeroVueltas + ", Corredores=" + Corredores + '}';
+    }
+    
     
 }

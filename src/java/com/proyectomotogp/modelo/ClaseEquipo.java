@@ -34,5 +34,10 @@ public class ClaseEquipo {
     }
     
     //to string
+
+    @Override
+    public String toString() {
+        return "ClaseEquipo{" + "NumeroDeIntegrantes=" + NumeroDeIntegrantes + ", NombreDelEquipo=" + NombreDelEquipo + '}';
+    }
     
 }

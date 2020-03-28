@@ -63,5 +63,10 @@ public class ClasePiloto implements Serializable{
     }
     
     //to string
+
+    @Override
+    public String toString() {
+        return "ClasePiloto{" + "Nombre=" + Nombre + ", Nacionalidad=" + Nacionalidad + ", Moto=" + Moto + ", Edad=" + Edad + '}';
+    }
     
 }
